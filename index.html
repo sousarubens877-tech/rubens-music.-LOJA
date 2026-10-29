@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rubens Music | Minha Loja: Simulador de Compras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <h1>Rubens Music</h1>
+    <p>A loja fictícia de instrumentos musicais para quem quer começar a tocar ou levar o som a outro nível.</p>
+  </header>
+
+  <main>
+    <section class="instrucoes">
+      <h2>Como usar o simulador</h2>
+      <ol>
+        <li>Confira os instrumentos e os preços abaixo.</li>
+        <li>Clique no botão <strong>Simular compra</strong>.</li>
+        <li>Digite a quantidade de cada instrumento. Digite <strong>0</strong> se não quiser comprar aquele item.</li>
+        <li>Veja o resumo com as quantidades, os valores por produto e o total.</li>
+      </ol>
+    </section>
+
+    <section class="produtos">
+      <h2>Nossos instrumentos</h2>
+      <div class="lista">
+        <article class="produto">
+          <div class="icone" aria-hidden="true">🎸</div>
+          <h3>Violão acústico</h3>
+          <p>Violão com cordas de aço, acabamento brilhante e ótimo som para iniciantes.</p>
+          <p class="preco">R$ 899,90</p>
+        </article>
+
+        <article class="produto">
+          <div class="icone" aria-hidden="true">🎹</div>
+          <h3>Teclado 61 teclas</h3>
+          <p>Teclado com sons variados, ritmos prontos e função de gravação.</p>
+          <p class="preco">R$ 1.249,00</p>
+        </article>
+
+        <article class="produto">
+          <div class="icone" aria-hidden="true">🥁</div>
+          <h3>Bateria</h3>
+          <p>Bateria acústica de 5 peças com pratos, pedal e banco, perfeita para estudar e tocar em banda.</p>
+          <p class="preco">R$ 2.499,00</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="acao">
+      <button type="button" onclick="simularCompra()">Simular compra</button>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Projeto desenvolvido por Rubens Sousa dos Santos</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
